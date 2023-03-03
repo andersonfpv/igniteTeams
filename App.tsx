@@ -1,8 +1,8 @@
 import { StatusBar } from 'react-native';
-import { Players } from '@screens/Players';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components/native';
 import { Loading } from '@components/Loading';
 import theme from './src/theme';
+import { Players } from '@screens/Players';
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
 
 export default function App() {
